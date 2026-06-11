@@ -14,3 +14,10 @@ print(random.random())
 
 print(random.choice([1,2,3,4,5,6]))
 
+print(math.floor(3.5))
+
+print(math.floor(-3.5))
+
+print(math.trunc(-2.8))
+
+print(2+1j)
