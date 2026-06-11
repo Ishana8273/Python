@@ -21,3 +21,15 @@ print(math.floor(-3.5))
 print(math.trunc(-2.8))
 
 print(2+1j)
+ 
+print(0o20)
+
+print(0xFF)
+
+print(0b1000)
+
+print(oct(64))
+
+print(hex(64))
+
+print(bin(64))
