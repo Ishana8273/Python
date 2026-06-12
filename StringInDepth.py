@@ -31,5 +31,28 @@ print(chai_one.rstrip())
 
 print(chai.replace("Lemon","Masala"))
 
+chai_two = "Lemon, Ginger, Masala"
 
+print(chai_two.split())
+# ['Lemon,', 'Ginger,', 'Masala']
+
+print(chai_two.split(", "))
+# ['Lemon', 'Ginger', 'Masala']
+
+print(chai_two.find("Ginger"))
+# 7
+
+print(chai_two.find("lemon"))
+# -1
+
+chai_three = "Lemon chai Chai chai"
+
+print(chai_three.count("chai"))
+# 2
+
+chai_type = "Masala"
+quantity = 2
+
+order = "I would like {} cups of {} chai"
+print(order.format(quantity, chai_type))
 
