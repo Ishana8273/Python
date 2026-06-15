@@ -56,3 +56,22 @@ quantity = 2
 order = "I would like {} cups of {} chai"
 print(order.format(quantity, chai_type))
 
+chai_variety = ["Lemon", "Ginger", "Masala"]
+
+print(chai_variety)
+
+print("".join(chai_variety))
+
+print(", ".join(chai_variety))
+
+
+print(" and ".join(chai_variety))
+# Lemon and Ginger and Masala
+
+chai = "Lemon Chai"
+
+print(len(chai))
+
+for letter in chai:
+    print(letter)
+    
