@@ -88,9 +88,24 @@ chai2 = r"Masala\nchai"
 
 print(chai2)
 
+# path = r"C:\Users\ChaiLover\Documents\chai.txt"
+# print(path)
+
 # path printing
 path = r"C:\Users\ChaiLover\Documents\chai.txt"
 print(path)
 
+# conataining query
+chai = "Masala Chai"
 
+print("Chai" in chai)
+
+print("Ginger" in chai)
+
+qr = """i
+am
+vansh
+malik"""
+
+print(qr)
 
