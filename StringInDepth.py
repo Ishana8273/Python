@@ -88,7 +88,9 @@ chai2 = r"Masala\nchai"
 
 print(chai2)
 
-
+# path printing
+path = r"C:\Users\ChaiLover\Documents\chai.txt"
+print(path)
 
 
 
