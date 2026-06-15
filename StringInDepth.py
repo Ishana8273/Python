@@ -74,4 +74,21 @@ print(len(chai))
 
 for letter in chai:
     print(letter)
-    
+
+# printing string with double quotes inside it
+chai1 = "He Said, \"I love Chai!\""
+
+print(chai1)
+
+chai2 = "Masala\nchai"
+
+print(chai2)
+
+chai2 = r"Masala\nchai"
+
+print(chai2)
+
+
+
+
+
