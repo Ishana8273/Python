@@ -17,3 +17,20 @@ tea_varities[3] = "Herbal Tea"
 
 print(tea_varities) # Modifying an element in the list
 
+print(tea_varities[1:2]) # Slicing to get a single element as a list   
+
+tea_varities[1:2] = "Matcha Tea" 
+print(tea_varities) # Modifying a slice of the list
+
+tea_varities = ["Black Tea", "Green Tea", "Oolong Tea", "White Tea"]
+
+tea_varities[1:2] = ["Matcha Tea"]
+print(tea_varities) # Modifying a slice of the list
+
+print(tea_varities[1:3]) # Slicing to get multiple elements as a list
+
+tea_varities[1:3] = ["Matcha Tea", "Chai Tea"]
+
+print(tea_varities) # Modifying a slice of the list
+
+print(len(tea_varities)) # Getting the length of the list
