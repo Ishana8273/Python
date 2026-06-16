@@ -33,4 +33,17 @@ tea_varities[1:3] = ["Matcha Tea", "Chai Tea"]
 
 print(tea_varities) # Modifying a slice of the list
 
+print(tea_varities)
+
+print(tea_varities[1:1]) # Slicing to get an empty list
+
+tea_varities[1:1] = ["test", "test"]  
+
+print(tea_varities) # Inserting elements into the list using slicing
+
+tea_varities[1:3] = [] # Removing elements from the list using slicing
+
+print(tea_varities)
+
 print(len(tea_varities)) # Getting the length of the list
+
