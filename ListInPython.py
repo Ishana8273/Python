@@ -72,3 +72,12 @@ print(tea_varities)
 
 tea_varities.insert(1, "Herbal Tea") # Inserting an element at a specific index
 print(tea_varities)
+
+tea_varities_copy = tea_varities.copy() # Creating a copy of the list
+print(tea_varities_copy)
+
+tea_varities_copy.append("Chamomile Tea") # Adding an element to the copied list
+print(tea_varities)
+
+print(tea_varities_copy) # Printing the copied list to show it has been modified independently of the original list
+
