@@ -67,7 +67,7 @@ if "Oolong Tea" in tea_varities:
 tea_varities.pop() # Removing the last element from the list
 print(tea_varities)
 
-tea_varities.remove("Green Tea") # Removing a specific element from the list
+tea_varities.remove("Black Tea") # Removing a specific element from the list
 print(tea_varities)
 
 tea_varities.insert(1, "Herbal Tea") # Inserting an element at a specific index
@@ -80,4 +80,10 @@ tea_varities_copy.append("Chamomile Tea") # Adding an element to the copied list
 print(tea_varities)
 
 print(tea_varities_copy) # Printing the copied list to show it has been modified independently of the original list
+
+squared_numbers = [x**2 for x in range(10)] # Using list comprehension to create a list of squared numbers
+print(squared_numbers)
+
+cubed_numbers = [x**3 for x in range(10)] # Using list comprehension to create a list of cubed numbers
+print(cubed_numbers)
 
