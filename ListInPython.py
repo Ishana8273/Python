@@ -61,4 +61,10 @@ for tea in tea_varities:
 for tea in tea_varities:
     print(tea, end="-") # Iterating through the list and printing each element on the same line separated by a hyphen   
 
-    
+if "Oolong Tea" in tea_varities:
+    print("Oolong Tea is available.") # Checking if an element exists in the list    
+
+tea_varities.pop() # Removing the last element from the list
+print(tea_varities)
+
+
