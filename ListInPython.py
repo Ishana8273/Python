@@ -47,3 +47,18 @@ print(tea_varities)
 
 print(len(tea_varities)) # Getting the length of the list
 
+print(tea_varities) 
+
+for tea in tea_varities:
+    print(tea) # Iterating through the list and printing each element
+
+for tea in tea_varities:
+    print(tea.upper()) # Iterating through the list and printing each element in uppercase
+
+for tea in tea_varities:
+    print(tea.lower()) # Iterating through the list and printing each element in lowercase
+
+for tea in tea_varities:
+    print(tea, end="-") # Iterating through the list and printing each element on the same line separated by a hyphen   
+
+    
