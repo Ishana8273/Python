@@ -67,4 +67,8 @@ if "Oolong Tea" in tea_varities:
 tea_varities.pop() # Removing the last element from the list
 print(tea_varities)
 
+tea_varities.remove("Green Tea") # Removing a specific element from the list
+print(tea_varities)
 
+tea_varities.insert(1, "Herbal Tea") # Inserting an element at a specific index
+print(tea_varities)
