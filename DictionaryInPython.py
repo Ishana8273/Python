@@ -43,3 +43,22 @@ del chai_types["Ginger"] # Removes the item with the specified key (Ginger in th
 
 print(chai_types)
 
+tea_types_copy = chai_types.copy()
+
+tea_shop = {
+    "chai": {"Masala": "Spicy", "Ginger": "Zingy", "Lemon": "Tangy"},
+    "tea": {"Black": "Bold", "Green": "Fresh", "Oolong": "Smooth"}
+}
+
+print(tea_shop)
+
+print(tea_shop["chai"])
+
+print(tea_shop["tea"]["Green"])
+
+squared_num = {x:x**2 for x in range(10)}
+print(squared_num)
+
+squared_num.clear()
+
+
