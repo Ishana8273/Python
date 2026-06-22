@@ -20,5 +20,11 @@ for chai in chai_types:
     
 for key,value in  chai_types.items():
     print(key,value)
-    
-            
+
+if "Masala" in  chai_types:
+    print("Masala chai is exists in the dictionary")            
+
+print(len(chai_types))
+
+print(chai_types)
+
