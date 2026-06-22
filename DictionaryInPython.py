@@ -61,4 +61,13 @@ print(squared_num)
 
 squared_num.clear()
 
+keys = ["Masala", "Ginger", "Lemon"]
+
+default_value = "Delicious"
+
+new_dict = dict.fromkeys(keys,default_value)
+print(new_dict)
+
+new_dict= dict.fromkeys(keys,keys)
+print(new_dict)
 
