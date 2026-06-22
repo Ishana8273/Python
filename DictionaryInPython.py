@@ -28,3 +28,18 @@ print(len(chai_types))
 
 print(chai_types)
 
+chai_types["Earl Grey"] = "Citrus"
+
+print(chai_types)
+
+chai_types.pop("Masala")
+
+print(chai_types)
+
+chai_types.popitem() # Removes the last inserted item (Earl Grey in this case)
+print(chai_types)
+
+del chai_types["Ginger"] # Removes the item with the specified key (Ginger in this case)
+
+print(chai_types)
+
